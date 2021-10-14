@@ -141,7 +141,7 @@ img {
 }
 
 .list_nav {
-   justify-content: space-evenly;
+   justify-content: space-around;
 }
 
 .link_nav {
@@ -213,6 +213,12 @@ img {
    right: 0;
    bottom: 0;
    width: 295px;
+}
+
+@media screen and (max-width: 480px) {
+   .home_img {
+      width: 200px;
+   }
 }
 
 /* About */
@@ -424,7 +430,7 @@ img {
 @media screen and (min-width: 768px) {
    .container {
       margin: auto;
-      padding: 0 2rem;
+      padding: 0 4rem;
    }
 
    .section {
